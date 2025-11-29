@@ -2,6 +2,8 @@
 # GPU Price Sniper
 
 Automated tool for tracking GPU prices (RTX 5090, 5080, 4090) across major Swedish retailers like Webhallen, Inet, Komplett, and NetOnNet.
+This tool was made for the authors learning purposes.
+
 
 ## Features
 - **Multi-Platform:** Optimized scripts for Windows (`MKULTRA.py`) and macOS (`MACULTRA.py`).
