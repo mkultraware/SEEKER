@@ -22,6 +22,7 @@ Configure your email settings in the script or use environment variables.
 
 Run the script:
 python SEEKERmacOS.py if youre using an Apple computer.
+
 python SEEKERwin11.py if youre using an Windows 11 device.
 
 Disclaimer
