@@ -21,7 +21,8 @@ Automated tool for tracking GPU prices (RTX 5090, 5080, 4090) across major Swedi
 Configure your email settings in the script or use environment variables.
 
 Run the script:
-python MKULTRA_Sanitized.py
+python SEEKERmacOS.py if youre using an Apple computer.
+python SEEKERwin11.py if youre using an Windows 11 device.
 
 Disclaimer
 This tool was made for the authors learning purposes.
