@@ -1,2 +1,16 @@
 # SEEKER
-Automated GPU price tracking tool for Swedish retailers using Python and Playwright.
+# GPU Price Sniper
+
+Automated tool for tracking GPU prices (RTX 5090, 5080, 4090) across major Swedish retailers like Webhallen, Inet, Komplett, and NetOnNet.
+
+## Features
+- **Multi-Platform:** Optimized scripts for Windows (`MKULTRA.py`) and macOS (`MACULTRA.py`).
+- **Anti-Detection:** Uses `curl_cffi` and randomized headers to bypass bot protections.
+- **Dynamic Content:** Integrates `Playwright` to scrape JavaScript-heavy sites.
+- **Alerts:** Sends email notifications via SMTP when price targets are met. Make sure your information is entered here otherwise no notifications will be sent. 
+
+## Setup
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   playwright install
