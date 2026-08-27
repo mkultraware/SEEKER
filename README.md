@@ -6,7 +6,7 @@ Automated tool for tracking GPU prices (RTX 5090, 5080, 4090) across major Swedi
 
 
 ## Features
-- **Multi-Platform:** Optimized scripts for Windows (`MKULTRA.py`) and macOS (`MACULTRA.py`).
+- **Multi-Platform:** Optimized scripts for Windows (`SEEKERwin11.py`) and macOS (`SEEKERmacOS.py`).
 - **Anti-Detection:** Uses `curl_cffi` and randomized headers to bypass bot protections.
 - **Dynamic Content:** Integrates `Playwright` to scrape JavaScript-heavy sites.
 - **Alerts:** Sends email notifications via SMTP when price targets are met. Make sure your information is entered here otherwise no notifications will be sent. 
@@ -16,7 +16,7 @@ Automated tool for tracking GPU prices (RTX 5090, 5080, 4090) across major Swedi
    ```bash
    pip install -r requirements.txt
    playwright install
-
+   ```
 
 Configure your email settings in the script or use environment variables.
 
